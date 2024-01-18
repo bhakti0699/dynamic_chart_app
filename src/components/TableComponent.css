@@ -1,0 +1,49 @@
+
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.responsive-table {
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.responsive-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.responsive-table th,
+.responsive-table td {
+    padding: 12px 15px;
+}
+
+.responsive-table tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.responsive-table tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.responsive-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.responsive-table tr:hover {
+  background-color: #e0e0e0; /* Lighter gray on hover */
+}
+
+/* Add more styling as needed */
